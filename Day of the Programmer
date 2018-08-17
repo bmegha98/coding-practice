@@ -1,0 +1,36 @@
+string dayOfProgrammer(int year) 
+{
+ int sum=0,months[]={31,28,31,30,31,30,31,31,30,31,30,31};
+        int temp=0,mon;
+        int d,m,y=year; 
+    if(y==1918)
+        return "26.09.1918";
+        if(y<1918)
+        {
+            if(y%4==0)
+             months[1]=29;
+        }
+          else if(y>1918)
+          {
+              if(y%400==0 ||(y%4==0 && y%100!=0))
+                   months[1]=29;
+          }
+    else 
+        months[1]=28;
+        for(int i=0;i<12;i++)
+        {
+                if(temp<=256 && sum<=256)
+                sum+=months[i];
+                if(sum<=256)
+                temp=sum;mon=i;
+                else
+                break;
+                }
+             sum=temp;
+             d=256-sum;
+             m=mon+2;
+             string day=to_string(d);
+             string month=to_string(m);
+              string ret=day.append(".0").append(month).append(".").append(to_string(y));
+    return ret;
+}

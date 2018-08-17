@@ -10,4 +10,4 @@ Function Description:
 Complete the dayOfProgrammer function. It should return a string representing the date of the  day of the year given.
 
 dayOfProgrammer has the following parameter(s):
-year: an integer
+year: an integer.

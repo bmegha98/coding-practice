@@ -1,3 +1,6 @@
+#include<iostream>
+#include <string>
+using namespace std;
 string dayOfProgrammer(int year) 
 {
  int sum=0,months[]={31,28,31,30,31,30,31,31,30,31,30,31};
@@ -33,4 +36,14 @@ string dayOfProgrammer(int year)
              string month=to_string(m);
               string ret=day.append(".0").append(month).append(".").append(to_string(y));
     return ret;
+}
+int main()
+{
+int year;
+cout<<"Enter year : ";
+cin>>year;
+  string d=dayOfProgrammer(year);
+    cout<<d<<endl;
+    system("pause");
+    return 0;
 }

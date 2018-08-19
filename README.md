@@ -15,3 +15,9 @@ year: an integer.
 * Given n names and phone numbers, assemble a phone book that maps friends' names to their respective phone numbers. You will then be given an unknown number of names to query your phone book for. For each name queried, print the associated entry from your phone book on a new line in the form name=phoneNumber; if an entry for name  is not found, print Not found instead.
 
 * Anna and Brian are sharing a meal at a restuarant and they agree to split the bill equally. Brian wants to order something that Anna is allergic to though, and they agree that Anna won't pay for that item. Brian gets the check and calculates Anna's portion. You must determine if his calculation is correct. It should print  It should print Bon Appetit if the bill is fairly split. Otherwise, it should print the integer amount of money that Brian owes Anna. 
+
+* You will be given two arrays of integers and asked to determine all integers that satisfy the following two conditions:
+
+The elements of the first array are all factors of the integer being considered
+The integer being considered is a factor of all elements of the second array
+These numbers are referred to as being between the two arrays. You must determine how many such numbers exist.

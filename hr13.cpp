@@ -11,7 +11,7 @@ int main()
     int C[101],k=0;
     for(int i=0;i<n;i++)
     cin>>A[i];
-    for(int i=0;i<100;i++)
+    for(int i=0;i<=100;i++)
     C[i]=0;
  for(int i=1;i<=100;i++)
     {
@@ -40,12 +40,12 @@ int main()
                }
                else
                {
-                   n=C[i]/2;cout<<"quotient "<<n<<endl;
+                   n=C[i]/2;
                  count+=n;
                }
                }
 }
-    cout<<"count "<<count<<endl;
+    cout<<"Number of pairs of socks are "<<count<<endl;
     
     system("pause");
     return 0;

@@ -47,7 +47,7 @@ int main()
 }
     cout<<"Number of pairs of socks are "<<count<<endl;
     
-    system("pause");
+   
     return 0;
 }
       

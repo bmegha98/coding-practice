@@ -23,3 +23,5 @@ year: an integer.
 These numbers are referred to as being between the two arrays. You must determine how many such numbers exist.
 
 * John works at a clothing store. He has a large pile of socks that he must pair by color for sale. Given an array of integers representing the color of each sock, determine how many pairs of socks with matching colors there are.
+
+* Given a base-10 integer, n, convert it to binary (base-2). Then find and print the base-10 integer denoting the maximum number of consecutive 1's in n's binary representation.

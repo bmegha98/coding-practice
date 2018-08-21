@@ -12,9 +12,7 @@ int main()
     else
     {
         min1=p/2;
-        cout<<"min1 "<<min1<<endl;
          min2=(n/2)-min1;
-         cout<<"min2 "<<min2<<endl;
          if(min1<min2)
          min=min1;
          else

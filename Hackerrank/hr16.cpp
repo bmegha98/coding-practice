@@ -9,13 +9,6 @@ int main()
     for(int i=0;i<6;i++)
     for(int j=0;j<6;j++)
     cin>>A[i][j];
-    
-    for(int i=0;i<6;i++)
-    {
-    for(int j=0;j<6;j++)
-    cout<<A[i][j]<<" ";
-    cout<<endl;
-    }
   for(int i=0;i<4;i++)
   { 
           int p=i+1,q=i+2;
@@ -28,7 +21,6 @@ int main()
       sum[k]+=A[q][m];
       }
        sum[k]+=A[p][t];
-        cout<<"sum["<<k<<"]"<<sum[k]<<endl;
         k++;
       }
       }

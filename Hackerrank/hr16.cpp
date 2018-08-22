@@ -9,6 +9,7 @@ int main()
     for(int i=0;i<6;i++)
     for(int j=0;j<6;j++)
     cin>>A[i][j];
+    
   for(int i=0;i<4;i++)
   { 
           int p=i+1,q=i+2;

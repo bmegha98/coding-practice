@@ -14,10 +14,10 @@ int main()
     {
      if(s[i]=='U')
        level++;
-     else
-     {
-       if(level==0)num_valley++;
+    if(s[i]=='D')
        level--;
+        if(level==0 && s[i]=='U')
+            num_valley++;
        }
       }
       

@@ -23,20 +23,27 @@ int main()
     cin>>b;
     
     int spent=-1;
+    int sum[m*n],k=0;
     
     for(int i=0;i<n;i++)
     {
      for(int j=0;j<m;j++)
      {
      if(key[i]+usb[j]<=b)
-      spent=max(spent,key[i]+usb[j]);
+     {
+      sum[k]=key[i]+usb[j];
+      k++;
+      }
        }
        }
-     
+       for(int i=0;i<k;i++)
+       {
+        if(sum[i]>spent)
+        spent=sum[i];
+        }
+    
          cout<<spent<<endl;
-       
-     
-     
+   
      system("pause");
      return 0;
      }

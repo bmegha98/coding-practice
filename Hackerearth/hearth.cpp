@@ -47,8 +47,6 @@ int main()
       }
                  cout<<"Months "<<months<<endl;
                   }
-               
-                 system("pause");
                  return 0;
                  }
          

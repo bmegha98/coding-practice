@@ -61,3 +61,8 @@ Given Gary's sequence of up and down steps during his last hike, find and print 
   Given the price lists for the store's keyboards and USB drives, and Monica's budget, find and print the amount of money
   Monica will spend. If she doesn't have enough money to both a keyboard and a USB drive, print -1 instead. She will buy only the
   two required items.
+  
+  * We define a magic square to be an nxn matrix of distinct positive integers from 1 to n^2  where the sum of any row, column, 
+  or diagonal of length n is always equal to the same number: the magic constant.You will be given a 3x3 matrix  of integers in the 
+  inclusive range [1,9]. We can convert any digit a to any other digit b in the range  at cost of|a-b| . Given s, convert it into a 
+  magic square at minimal cost. Print this cost on a new line.

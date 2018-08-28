@@ -66,3 +66,6 @@ Given Gary's sequence of up and down steps during his last hike, find and print 
   or diagonal of length n is always equal to the same number: the magic constant.You will be given a 3x3 matrix  of integers in the 
   inclusive range [1,9]. We can convert any digit a to any other digit b in the range  at cost of|a-b| . Given s, convert it into a 
   magic square at minimal cost. Print this cost on a new line.
+  
+  * Given an array of integers, find and print the maximum number of integers you can select from the array such that the absolute
+  difference between any two of the chosen integers is less than or equal to 1. 

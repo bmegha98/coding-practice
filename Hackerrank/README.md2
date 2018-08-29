@@ -69,3 +69,10 @@ Given Gary's sequence of up and down steps during his last hike, find and print 
   
   * Given an array of integers, find and print the maximum number of integers you can select from the array such that the absolute
   difference between any two of the chosen integers is less than or equal to 1. 
+  
+  * Alice is playing an arcade game and wants to climb to the top of the leaderboard and wants to track her ranking. The game uses
+  Dense Ranking, so its leaderboard works like this:
+  1. The player with the highest score is ranked number 1  on the leaderboard.
+  2. Players who have equal scores receive the same ranking number, and the next player(s) receive the immediately following 
+  ranking number.
+  It should return an integer array where each element represents Alice's rank after every game.

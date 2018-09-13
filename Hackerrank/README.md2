@@ -5,6 +5,16 @@ the area of the rectangle highlight in mm^2 assuming all letters are 1mm wide.
 h: an array of integers representing the heights of each letter
 word: a string
 
+* A Discrete Mathematics professor has a class of students. Frustrated with their lack of discipline, he decides to cancel class if
+fewer than some number of students are present when class starts.Given the arrival time of each student and a threshhold number of 
+attendees, determine if the class is canceled.
+INPUT:
+The first line of input contains t, the number of test cases.
+Each test case consists of two lines.
+The first line has two space-separated integers,n and k , the number of students (size of a) and the cancellation threshold. 
+The second line contains n space-separated integers describing the arrival times for each student.
+OUTPUT:
+For each test case, print the word YES if the class is canceled or NO if it is not.
 * The Utopian Tree goes through 2 cycles of growth every year. Each spring, it doubles in height. Each summer, its height increases by
 1 meter.Laura plants a Utopian Tree sapling with a height of 1 meter at the onset of spring. How tall will her tree be after  n
 growth cycles?

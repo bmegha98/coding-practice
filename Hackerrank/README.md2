@@ -11,6 +11,8 @@ of size k to cloud c[(i+k)%n] . If Aerith lands on a thundercloud,c[i]=1 , her e
 when Aerith lands back on cloud 0 .
 Given the values of ,n ,k and the configuration of the clouds as an array c, can you determine the final value of e after the game ends?
 
+*For each array, perform a number of right circular rotations and return the value of the element at a given index.
+
 *A jail has a number of prisoners and a number of treats to pass out to them. Their jailer decides the fairest way to divide the treats
 is to seat the prisoners around a circular table in sequentially numbered chairs. A chair number will be drawn from a hat. Beginning 
 with the prisoner in that chair, one candy will be handed to each prisoner sequentially around the table until all have been distributed.

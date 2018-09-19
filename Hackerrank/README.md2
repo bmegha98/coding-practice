@@ -8,6 +8,9 @@ word: a string
 * Given a sequence of n integers,p(1),p(2),...,p(n)  where each element is distinct and satisfies 1<=p(x)<=n. For each x where 1<=x<=n, 
 find any integer y such that p(p(y))=x  and print the value of y on a new line.
 
+* Given an integer, for each digit that makes up the integer determine whether it is a divisor. Count the number of divisors occurring 
+  within the integer.
+
 *Aerith is playing a cloud hopping game. In this game, there are sequentially numbered clouds that can be thunderheads or cumulus clouds. Her character must jump from cloud to cloud until it reaches the start again.
 To play, Aerith is given an array of clouds,c  and an energy level e=100 . She starts from c[0] and uses 1 unit of energy to make a jump
 of size k to cloud c[(i+k)%n] . If Aerith lands on a thundercloud,c[i]=1 , her energy (e) decreases by 2 additional units. The game ends

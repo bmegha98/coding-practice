@@ -14,6 +14,9 @@ operations on s. If it's possible, print Yes. Otherwise, print No.
 * Watson likes to challenge Sherlock's math ability. He will provide a starting and ending value describing a range of integers. 
 Sherlock must determine the number of square integers within that range, inclusive of the endpoints.
 
+* Given a set of distinct integers, print the size of a maximal subset of S where the sum of any 2 numbers in S'' is not evenly divisible
+by k.
+
 * You are given a number of sticks of varying lengths. You will iteratively cut the sticks into smaller sticks, discarding the shortest
 pieces until there are none left. At each iteration you will determine the length of the shortest stick remaining, cut that length from
 each of the longer sticks and then discard all the pieces of that shortest length. When all the remaining sticks are the same length, 

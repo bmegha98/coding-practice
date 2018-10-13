@@ -7,7 +7,9 @@ Today the organizers ask you to count the number of qualified teams in Pre-elimi
 1. The first line contains one integer T - the number of testcases. The next 2⋅T lines contains test cases.
 2. The first line of each test case contains two integers - N and K.
 3. The second line contains N space-separated integers Si, i-th of them denoting the score of i-th team.
+
 **Output:** For each testcase, output in a single line containing the answer to the problem.
+
 **Constraints**
        1≤T≤1000
        1≤K≤N≤10^5

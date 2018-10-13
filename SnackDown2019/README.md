@@ -1,8 +1,9 @@
 # Q1- Qualifying to Pre-elimination
 
 Today the organizers ask you to count the number of qualified teams in Pre-elimination round.
+
 They provide you scores of each team and ensure that all teams scoring at least equal to K-th team.
-**Input:
+**Input:**
 
 The first line contains one integer T - the number of testcases. The next 2⋅T lines contains test cases.
 The first line of each test case contains two integers - N and K.

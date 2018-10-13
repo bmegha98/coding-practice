@@ -11,7 +11,7 @@ Today the organizers ask you to count the number of qualified teams in Pre-elimi
 **Output:** For each testcase, output in a single line containing the answer to the problem.
 
 **Constraints**
-1≤T≤1000
-1≤K≤N≤10^5
-1≤S[i]≤10^9
-sum of N over all test-cases doesn't exceed 10^6
+* 1≤T≤1000
+* 1≤K≤N≤10^5
+* 1≤S[i]≤10^9
+* sum of N over all test-cases doesn't exceed 10^6

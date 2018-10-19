@@ -20,6 +20,7 @@ Today the organizers ask you to count the number of qualified teams in Pre-elimi
 
 Chef has two sequences A and B, each with length N. He can apply the following magic operation an arbitrary number of times (including zero): choose an index i (1≤i≤N−2) and add 1 to A[i], 2 to A[i+1] and 3 to A[i+2], i.e. change A[i] to A[i]+1, A[i+1] to A[i+1]+2 and A[i+2] to A[i+2]+3.
 Chef asks you to tell him if it is possible to obtain sequence B from sequence A this way. Help him!
+
 **Input:**
 
 * The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.

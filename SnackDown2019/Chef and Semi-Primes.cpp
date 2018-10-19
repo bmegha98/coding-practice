@@ -32,7 +32,7 @@ int main()
         cin>>N;
         bool flag=false;
        for(int j = 2; j <= N; ++j)
-    {
+     {
         if (checkSemiprime(j))
         {
             if (checkSemiprime(N - j))

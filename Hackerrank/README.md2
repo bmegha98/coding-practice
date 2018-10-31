@@ -14,6 +14,11 @@ operations on s. If it's possible, print Yes. Otherwise, print No.
 * Watson likes to challenge Sherlock's math ability. He will provide a starting and ending value describing a range of integers. 
 Sherlock must determine the number of square integers within that range, inclusive of the endpoints.
 
+* Emma is playing a new mobile game that starts with consecutively numbered clouds. Some of the clouds are thunderheads and others are 
+cumulus. She can jump on any cumulus cloud having a number that is equal to the number of the current cloud plus 1 or 2. She must avoid
+the thunderheads. Determine the minimum number of jumps it will take Emma to jump from her starting postion to the last cloud. It is 
+always possible to win the game.
+
 * Given a set of distinct integers, print the size of a maximal subset of S where the sum of any 2 numbers in S'' is not evenly divisible
 by k.
 
